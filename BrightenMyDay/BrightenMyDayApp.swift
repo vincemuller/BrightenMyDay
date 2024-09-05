@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct BrightenMyDayApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            JokeHomeScreen()
         }
     }
 }

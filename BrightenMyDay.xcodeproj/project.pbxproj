@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		EB47224D2C8A0AE000507842 /* BrightenMyDayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47224C2C8A0AE000507842 /* BrightenMyDayApp.swift */; };
-		EB47224F2C8A0AE000507842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47224E2C8A0AE000507842 /* ContentView.swift */; };
 		EB4722512C8A0AE200507842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4722502C8A0AE200507842 /* Assets.xcassets */; };
 		EB4722542C8A0AE200507842 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4722532C8A0AE200507842 /* Preview Assets.xcassets */; };
+		EB47225B2C8A0B3A00507842 /* JokesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47225A2C8A0B3A00507842 /* JokesModel.swift */; };
+		EB47225D2C8A0BA600507842 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47225C2C8A0BA600507842 /* NetworkManager.swift */; };
+		EB47225F2C8A0BC100507842 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47225E2C8A0BC100507842 /* NetworkErrors.swift */; };
+		EB4722612C8A0C0900507842 /* JokeHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722602C8A0C0900507842 /* JokeHomeScreen.swift */; };
+		EB4722652C8A0C9B00507842 /* BrightenMyDayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722642C8A0C9B00507842 /* BrightenMyDayViewModel.swift */; };
+		EB4722692C8A0CDC00507842 /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722682C8A0CDC00507842 /* CategorySelectionView.swift */; };
+		EB47226B2C8A0CF000507842 /* CTAButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47226A2C8A0CF000507842 /* CTAButtonView.swift */; };
+		EB4722742C8A1DA700507842 /* JokerMasksLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722732C8A1DA700507842 /* JokerMasksLogoView.swift */; };
+		EB4722762C8A1E2700507842 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722752C8A1E2700507842 /* TitleView.swift */; };
+		EB47227A2C8A23AE00507842 /* JokeGeneratorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4722792C8A23AD00507842 /* JokeGeneratorView.swift */; };
+		EB47227E2C8A4E9D00507842 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB47227D2C8A4E9D00507842 /* View+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB4722492C8A0AE000507842 /* BrightenMyDay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrightenMyDay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB47224C2C8A0AE000507842 /* BrightenMyDayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightenMyDayApp.swift; sourceTree = "<group>"; };
-		EB47224E2C8A0AE000507842 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB4722502C8A0AE200507842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB4722532C8A0AE200507842 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB47225A2C8A0B3A00507842 /* JokesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesModel.swift; sourceTree = "<group>"; };
+		EB47225C2C8A0BA600507842 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EB47225E2C8A0BC100507842 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
+		EB4722602C8A0C0900507842 /* JokeHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeHomeScreen.swift; sourceTree = "<group>"; };
+		EB4722642C8A0C9B00507842 /* BrightenMyDayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrightenMyDayViewModel.swift; sourceTree = "<group>"; };
+		EB4722682C8A0CDC00507842 /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
+		EB47226A2C8A0CF000507842 /* CTAButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTAButtonView.swift; sourceTree = "<group>"; };
+		EB4722732C8A1DA700507842 /* JokerMasksLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokerMasksLogoView.swift; sourceTree = "<group>"; };
+		EB4722752C8A1E2700507842 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		EB4722792C8A23AD00507842 /* JokeGeneratorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeGeneratorView.swift; sourceTree = "<group>"; };
+		EB47227D2C8A4E9D00507842 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +71,16 @@
 		EB47224B2C8A0AE000507842 /* BrightenMyDay */ = {
 			isa = PBXGroup;
 			children = (
+				EB4722722C8A155800507842 /* Managers */,
+				EB4722712C8A153800507842 /* Models */,
+				EB4722702C8A152B00507842 /* Views */,
+				EB47226F2C8A151E00507842 /* ViewModels */,
+				EB47226E2C8A150F00507842 /* Screens */,
 				EB47224C2C8A0AE000507842 /* BrightenMyDayApp.swift */,
-				EB47224E2C8A0AE000507842 /* ContentView.swift */,
 				EB4722502C8A0AE200507842 /* Assets.xcassets */,
 				EB4722522C8A0AE200507842 /* Preview Content */,
+				EB47225E2C8A0BC100507842 /* NetworkErrors.swift */,
+				EB47227D2C8A4E9D00507842 /* View+Ext.swift */,
 			);
 			path = BrightenMyDay;
 			sourceTree = "<group>";
@@ -65,6 +91,50 @@
 				EB4722532C8A0AE200507842 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB47226E2C8A150F00507842 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EB4722602C8A0C0900507842 /* JokeHomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		EB47226F2C8A151E00507842 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EB4722642C8A0C9B00507842 /* BrightenMyDayViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		EB4722702C8A152B00507842 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB4722682C8A0CDC00507842 /* CategorySelectionView.swift */,
+				EB47226A2C8A0CF000507842 /* CTAButtonView.swift */,
+				EB4722732C8A1DA700507842 /* JokerMasksLogoView.swift */,
+				EB4722752C8A1E2700507842 /* TitleView.swift */,
+				EB4722792C8A23AD00507842 /* JokeGeneratorView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EB4722712C8A153800507842 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB47225A2C8A0B3A00507842 /* JokesModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB4722722C8A155800507842 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				EB47225C2C8A0BA600507842 /* NetworkManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +207,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB47224F2C8A0AE000507842 /* ContentView.swift in Sources */,
+				EB47225D2C8A0BA600507842 /* NetworkManager.swift in Sources */,
+				EB4722612C8A0C0900507842 /* JokeHomeScreen.swift in Sources */,
+				EB47227A2C8A23AE00507842 /* JokeGeneratorView.swift in Sources */,
+				EB47226B2C8A0CF000507842 /* CTAButtonView.swift in Sources */,
+				EB4722742C8A1DA700507842 /* JokerMasksLogoView.swift in Sources */,
+				EB47225B2C8A0B3A00507842 /* JokesModel.swift in Sources */,
+				EB4722692C8A0CDC00507842 /* CategorySelectionView.swift in Sources */,
+				EB4722652C8A0C9B00507842 /* BrightenMyDayViewModel.swift in Sources */,
+				EB47227E2C8A4E9D00507842 /* View+Ext.swift in Sources */,
+				EB47225F2C8A0BC100507842 /* NetworkErrors.swift in Sources */,
 				EB47224D2C8A0AE000507842 /* BrightenMyDayApp.swift in Sources */,
+				EB4722762C8A1E2700507842 /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +358,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +386,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
