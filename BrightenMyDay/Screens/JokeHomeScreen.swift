@@ -1,5 +1,5 @@
 //
-//  JokeCriteriaScreen.swift
+//  JokeHomeScreen.swift
 //  BrightenMyDay
 //
 //  Created by Vince Muller on 9/5/24.
