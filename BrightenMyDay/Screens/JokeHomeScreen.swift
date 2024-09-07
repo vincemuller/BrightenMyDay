@@ -31,21 +31,29 @@ struct JokeHomeScreen: View {
                             CTAButtonView(action: {
                                 if viewModel.categorylabel != "" {
                                     viewModel.jokeGenerationIsActive = true;
-                                    viewModel.getJoke()
+                                    Task {
+                                        await viewModel.getJoke()
+                                    }
+                                } else {
+                                    viewModel.showError     = true
+                                    viewModel.errorMessage  = "Please select a joke category"
                                 }
                             }, label: "Generate New Joke")
                             if viewModel.jokeGenerationIsActive == true {
                                 Button("Select Different Category") {
-                                    viewModel.jokeGenerationIsActive = false
+                                    viewModel.jokeGenerationIsActive = false;
+                                    viewModel.joke.setup = ""
+                                    viewModel.joke.delivery = ""
                                 }
+                                .padding(.bottom, 10)
                                 .tint(Color.secondary)
-                                .padding()
                             }
                         }
                     }
                 }
             }
             .ignoresSafeArea()
+            .alert(isPresented: $viewModel.showError, errorMessage: viewModel.errorMessage)
             .task {
                 await viewModel.getCategories()
             }

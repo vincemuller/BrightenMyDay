@@ -79,7 +79,6 @@
 				EB47224C2C8A0AE000507842 /* BrightenMyDayApp.swift */,
 				EB4722502C8A0AE200507842 /* Assets.xcassets */,
 				EB4722522C8A0AE200507842 /* Preview Content */,
-				EB47225E2C8A0BC100507842 /* NetworkErrors.swift */,
 				EB47227D2C8A4E9D00507842 /* View+Ext.swift */,
 			);
 			path = BrightenMyDay;
@@ -132,6 +131,7 @@
 		EB4722722C8A155800507842 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				EB47225E2C8A0BC100507842 /* NetworkErrors.swift */,
 				EB47225C2C8A0BA600507842 /* NetworkManager.swift */,
 			);
 			path = Managers;

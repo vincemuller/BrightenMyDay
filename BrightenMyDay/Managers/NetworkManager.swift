@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Observation
 
 final class NetworkManager {
     
@@ -15,25 +14,25 @@ final class NetworkManager {
     init() {}  //This combined with the static variable creates the singleton
     
     func getJokeCategories() async throws -> Category {
-    
-            let endpoint = baseURL + "categories"
-            
-            var request = URLRequest(url: URL(string: endpoint)!,timeoutInterval: Double.infinity)
-            request.httpMethod = "GET"
-            
-            let (data, response) = try await URLSession.shared.data(for: request)
-            
-            guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
-                throw NetworkError.invalidResponse
-            }
-            
-            do {
-                let decoder = JSONDecoder()
-                let d = try decoder.decode(Category.self, from: data)
-                return d
-            } catch {
-                throw NetworkError.invalidData
-            }
+        
+        let endpoint = baseURL + "categories"
+        
+        var request = URLRequest(url: URL(string: endpoint)!,timeoutInterval: Double.infinity)
+        request.httpMethod = "GET"
+        
+        let (data, response) = try await URLSession.shared.data(for: request)
+        
+        guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+            throw NetworkError.invalidResponse
+        }
+        
+        do {
+            let decoder = JSONDecoder()
+            let d = try decoder.decode(Category.self, from: data)
+            return d
+        } catch {
+            throw NetworkError.invalidData
+        }
     }
     
     func generateJokes(category: String) async throws -> Joke {
